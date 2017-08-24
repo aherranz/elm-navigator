@@ -1,11 +1,19 @@
-## elm-navigator
-
 A module that exposes the read-only properties of `window.navigator`
 ([Navigator](https://developer.mozilla.org/en/docs/Web/API/Navigator)):
-the state and the identity of the user agent.  A tiny module to detect
-the vendor prefix string.
+the state and the identity of the user agent
 
-### Usage
+[TOC]
+
+# Compile and test
+
+Install elm and elm-test (npm install elm elm-test):
+
+```
+$ elm-make
+$ elm test
+```
+
+# Usage
 
 ```elm
 import Navigator
@@ -14,7 +22,12 @@ showUserAgent : String
 showUserAgent = Navigator.userAgent
 ```
 
-### Supported objects and subobjects
+# Supported objects and subobjects
 
 - [`Navigator.userAgent`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/userAgent)
-- [`Navigator.vendor`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vendor)
+
+## Changelog
+
+### v1.0.0
+
+- Version 1.0.0 with a unique property: `userAgent`.
