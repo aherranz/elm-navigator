@@ -2,8 +2,7 @@
 
 A module that exposes the read-only properties of `window.navigator`
 ([Navigator](https://developer.mozilla.org/en/docs/Web/API/Navigator)):
-the state and the identity of the user agent.  A tiny module to detect
-the vendor prefix string.
+the state and the identity of the user agent
 
 ### Usage
 
