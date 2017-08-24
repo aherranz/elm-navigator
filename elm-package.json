@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "summary": "Exposes the object Navigator: the state and the identity of the user agent.",
     "repository": "https://github.com/aherranz/elm-navigator.git",
     "license": "BSD3",
