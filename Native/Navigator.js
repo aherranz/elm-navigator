@@ -1,5 +1,6 @@
 
 var _aherranz$elm_navigator$Native_Navigator = function(elm) {
 
-    return  { userAgent: window.navigator.userAgent };
+    let userAgent = window && window.navigator && window.userAgent;
+    return  { userAgent: userAgent || "" };
 }();
