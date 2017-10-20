@@ -13,6 +13,8 @@ $ elm-make
 $ elm test
 ```
 
+Maybe you want to remove `elm-stuff` and `tests/elm-stuff` if something fails.
+
 ## Usage
 
 ```elm
@@ -25,4 +27,6 @@ showUserAgent = Navigator.userAgent
 ## Supported objects and subobjects
 
 - [`Navigator.userAgent`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/userAgent)
+- [`Navigator.vendor`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/vendor)
+- [`Navigator.vendorSub`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/vendorSub)
 
