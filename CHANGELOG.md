@@ -1,5 +1,9 @@
 # elm-navigator changelog
 
+## Next release
+
+- Properties added: `language`
+
 ## 1.0.3
 
 - Properties added: `vendor` and `vendorSub`
