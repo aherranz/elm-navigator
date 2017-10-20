@@ -2,6 +2,8 @@
 
 ## Next release
 
+## 1.0.5
+
 - Properties added: `languages`
 
 ## 1.0.4
