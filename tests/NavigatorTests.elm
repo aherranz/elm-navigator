@@ -9,7 +9,8 @@ import Test exposing (..)
 suite : Test
 suite =
     describe "The Navigator module"
-        [ test "userAgent does not fail" (\() -> Expect.equal "" Navigator.userAgent)
+        [ test "language does not fail" (\() -> Expect.equal "" Navigator.language)
+        , test "userAgent does not fail" (\() -> Expect.equal "" Navigator.userAgent)
         , test "vendor does not fail" (\() -> Expect.equal "" Navigator.vendor)
         , test "vendorSub does not fail" (\() -> Expect.equal "" Navigator.vendorSub)
         ]
