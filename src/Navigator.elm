@@ -1,10 +1,11 @@
-module Navigator exposing (language, userAgent, vendor, vendorSub)
+module Navigator exposing (language, languages, userAgent, vendor, vendorSub)
 
 {-| A module that exposes the read-only properties of `window.navigator`
 ([Navigator](https://developer.mozilla.org/en/docs/Web/API/Navigator)):
 the state and the identity of the user agent
 
 @docs language
+@docs languages
 @docs userAgent
 @docs vendor
 @docs vendorSub
@@ -19,6 +20,13 @@ import Native.Navigator
 language : String
 language =
     Native.Navigator.language
+
+
+{-| Returns languages
+-}
+languages : List String
+languages =
+    Native.Navigator.languages
 
 
 {-| Returns the userAgent

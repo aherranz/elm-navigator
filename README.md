@@ -26,6 +26,8 @@ showUserAgent = Navigator.userAgent
 
 ## Supported objects and subobjects
 
+- [`Navigator.language`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/language)
+- [`Navigator.languages`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/languages)
 - [`Navigator.userAgent`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/userAgent)
 - [`Navigator.vendor`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/vendor)
 - [`Navigator.vendorSub`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/vendorSub)
