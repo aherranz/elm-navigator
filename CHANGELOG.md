@@ -1,5 +1,9 @@
 # elm-navigator changelog
 
+## 1.0.3
+
+- Properties added: `vendor` and `vendorSub`
+
 ## 1.0.2
 
 - No changes since v1.0.1, just removing version prefix (v).
