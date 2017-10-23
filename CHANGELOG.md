@@ -2,6 +2,8 @@
 
 ## Next release
 
+## 1.0.6
+
 - Using var instead of let to avoid a optimization error when compiler
   for production: error: Optimizing of ../priv/static/js/cwmastex.js
   failed. L25672:8 SyntaxError: Unexpected token: name (_navigator)
